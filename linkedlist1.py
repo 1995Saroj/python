@@ -10,7 +10,7 @@ class linkedList:
         self.head = None
         self.tail = None
         self.count = 0
-
+  
     def iterateItem(self):
         current = self.tail
         while current:
