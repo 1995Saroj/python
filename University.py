@@ -1,3 +1,5 @@
+# This is a python program that builds a University activites
+# I have used Obeject Oriented Programming concepts in Python to implement all of these
 class University:
     def __init__(self, name, city, state, major, enrolled):
         self.name = name
@@ -22,8 +24,6 @@ class University:
         totalSalary = salary + bonus
         return f"{teacher} takes ${totalSalary} per year."
         
-        
-
 Uni1 = University("The University of Texas at Arlington", "Arlington", "Texas", "Computer Science", 2000)
 
 print(Uni1.fullAddress())
