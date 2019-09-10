@@ -1,5 +1,5 @@
 # This is a python program that builds a University activites
-# I have used Obeject Oriented Programming concepts in Python to implement all of these
+# I have used Obeject Oriented Programming concepts in Python to implement all of these 
 class University:
     def __init__(self, name, city, state, major, enrolled):
         self.name = name
