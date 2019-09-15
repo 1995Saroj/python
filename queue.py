@@ -25,8 +25,4 @@ print(object.isEmpty())
 object.enqueue(1)
 object.enqueue("UTA")
 object.printQueue()
-print(object.size())
-
-
-
-    
+print(object.size())    
